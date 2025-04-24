@@ -1,0 +1,44 @@
+.block {
+  width: 600px;
+  border-radius: 10px;
+  background: #f5f5f5;
+  border: 4px solid #0e0e0e;
+  margin: 40px auto;
+  padding-top: 10px;
+}
+.icon {
+  display: block;
+  margin: 0 auto;
+}
+.name {
+  font-size: 50px;
+  text-align: center;
+}
+.mail,
+.location {
+  text-align: center;
+  font-size: 40px;
+  color: gray;
+}
+.list {
+  display: flex;
+  justify-content: space-around;
+  background-color: darkgray;
+  border-top: 4px solid gray;
+  border-radius: 0 0 6px 6px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.item,
+.items {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 35px;
+  padding: 40px;
+}
+.items {
+  border-left: 4px solid gray;
+}
